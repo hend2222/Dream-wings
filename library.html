@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamWings | Magic Library Categories</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS File -->
+    <link rel="stylesheet" href="library.style.css">
+<link rel="stylesheet" href="reader-profile.css">
+</head>
+<body>
+
+    <!-- 🌟 NAVBAR -->
+    <header class="navbar transparent-nav">
+        <div class="logo">
+            <div class="logo-icon-bg">
+                <i class="fa-solid fa-book-open"></i>
+            </div>
+            <span>DreamWings</span>
+        </div>
+
+        <nav class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="library.html" class="active">Library</a>
+            <a href="about.html">About Me</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+
+       <div class="nav-actions">
+    <a href="favorite.html" class="fav-btn" data-requires-auth="true" title="Favorites" style="text-decoration: none; display: inline-flex; align-items: center; justify-content: center;">
+    <i class="fa-solid fa-star"></i>
+</a>
+  <a href="profile.html" class="login-btn" style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
+    <i class="fa-brands fa-google"></i> Sign In
+</a>
+</div>
+
+   
+
+
+    </header>
+
+    <!-- 🌟 LIBRARY HERO HEADER (WITH CLEAR TEXT) -->
+    <section class="library-hero">
+        <div class="ambient-glow"></div>
+        <div class="hero-content">
+            <div class="hero-text-badge">
+                <i class="fa-solid fa-sparkles glowing-star"></i> Magic Story Categories
+            </div>
+            <h1 class="library-title">Explore Our Library Shelves</h1>
+            <p class="library-subtitle">Choose a category below to discover wonderful tales and magical adventures!</p>
+        </div>
+    </section>
+
+    <!-- 🌟 WOODEN BOOKSHELVES SECTIONS (CATEGORIES) -->
+    <main class="bookshelf-section">
+        <div class="container">
+            
+            <!-- 🪵 SHELF 1: Fantasy & Sci-Fi (خيالي وعلمي) -->
+            <div class="shelf-wrapper">
+                <div class="shelf-header">
+                    <h2><i class="fa-solid fa-wand-magic-sparkles"></i> Fantasy & Sci-Fi Tales</h2>
+                </div>
+                
+                <div class="shelf-grid">
+                    <!-- Book 1: Space & Stars -->
+                    <div class="book-card" data-requires-auth="true" onclick="location.href='category.html?id=space-stars'">
+                        <div class="book-3d-wrapper">
+                            <div class="book-cover cat-book-1">
+                                <div class="book-spine-effect"></div>
+                                <div class="book-badge">Popular</div>
+                                <i class="fa-solid fa-rocket book-icon"></i>
+                                <h3>Space & Stars</h3>
+                                <span class="author">Sci-Fi Adventures</span>
+                            </div>
+                        </div>
+                        <div class="book-shadow"></div>
+                    </div>
+
+                    <!-- Book 2: Magic Worlds -->
+                    <div class="book-card" data-requires-auth="true" onclick="location.href='category.html?id=secret-kingdoms'">
+                        <div class="book-3d-wrapper">
+                            <div class="book-cover cat-book-2">
+                                <div class="book-spine-effect"></div>
+                                <div class="book-badge">Magical</div>
+                                <i class="fa-solid fa-hat-wizard book-icon"></i>
+                                <h3>Secret Kingdoms</h3>
+                                <span class="author">Fantasy Worlds</span>
+                            </div>
+                        </div>
+                        <div class="book-shadow"></div>
+                    </div>
+
+                    <!-- Book 3: Time Travel -->
+                    <div class="book-card" data-requires-auth="true" onclick="location.href='category.html?id=time-portals'">
+                        <div class="book-3d-wrapper">
+                            <div class="book-cover cat-book-3">
+                                <div class="book-spine-effect"></div>
+                                <div class="book-badge">Exciting</div>
+                                <i class="fa-solid fa-hourglass-start book-icon"></i>
+                                <h3>Time Portals</h3>
+                                <span class="author">Sci-Fi Wonders</span>
+                            </div>
+                        </div>
+                        <div class="book-shadow"></div>
+                    </div>
+                </div>
+                <div class="wooden-shelf-plank"><div class="wood-grain"></div></div>
+            </div>
+
+            <!-- 🪵 SHELF 2: Educational & Religious (تعليمي وديني) -->
+            <div class="shelf-wrapper">
+                <div class="shelf-header">
+                    <h2><i class="fa-solid fa-book-quran"></i> Educational & Values</h2>
+                </div>
+                
+                <div class="shelf-grid">
+                    <!-- Book 4: Good Morals (ديني) -->
+                    <div class="book-card" data-requires-auth="true" onclick="location.href='category.html?id=kind-hearts'">
+                        <div class="book-3d-wrapper">
+                            <div class="book-cover cat-book-4">
+                                <div class="book-spine-effect"></div>
+                                <div class="book-badge">Values</div>
+                                <i class="fa-solid fa-hands-holding-child book-icon"></i>
+                                <h3>Kind Hearts</h3>
+                                <span class="author">Islamic & Moral</span>
+                            </div>
+                        </div>
+                        <div class="book-shadow"></div>
+                    </div>
+
+                    <!-- Book 5: Science & Nature (تعليمي) -->
+                    <div class="book-card" data-requires-auth="true" onclick="location.href='category.html?id=little-scientist'">
+                        <div class="book-3d-wrapper">
+                            <div class="book-cover cat-book-5">
+                                <div class="book-spine-effect"></div>
+                                <div class="book-badge">Learn</div>
+                                <i class="fa-solid fa-flask book-icon"></i>
+                                <h3>Little Scientist</h3>
+                                <span class="author">Educational Fun</span>
+                            </div>
+                        </div>
+                        <div class="book-shadow"></div>
+                    </div>
+
+                    <!-- Book 6: Bedtime Stories (قصص نوم هادئة) -->
+                    <div class="book-card" data-requires-auth="true" onclick="location.href='category.html?id=sleepy-star-dreams'">
+                        <div class="book-3d-wrapper">
+                            <div class="book-cover cat-book-6">
+                                <div class="book-spine-effect"></div>
+                                <div class="book-badge">Bedtime</div>
+                                <i class="fa-solid fa-cloud-moon book-icon"></i>
+                                <h3>Sleepy Star Dreams</h3>
+                                <span class="author">Calm Bedtime</span>
+                            </div>
+                        </div>
+                        <div class="book-shadow"></div>
+                    </div>
+                </div>
+                <div class="wooden-shelf-plank"><div class="wood-grain"></div></div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- 🌟 FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>DreamWings</h3>
+                <p>Magical stories narrated with love to inspire young hearts and minds.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="home.html">Home</a>
+                <a href="library.html">Library</a>
+                <a href="about.html">About Me</a>
+            </div>
+            <div class="footer-col">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 DreamWings. All rights reserved. Designed with 🧡 by Hind.</p>
+        </div>
+    </footer>
+
+
+
+<script src="home.script.js"></script>
+
+<script type="module" src="auth-state.js"></script>
+<script type="module" src="favorites.js"></script>
+<script type="module" src="access-control.js"></script>
+    <script type="module" src="notifications.js"></script>
+
+    
+</body>
+</html>
